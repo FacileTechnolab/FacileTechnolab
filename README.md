@@ -13,10 +13,10 @@ Facile Technolab is a specialized software solution development company. We part
 ### 💻 Our Core Tech Stack
 | Category | Technologies |
 | :--- | :--- |
-| **Backend** | .NET 10, ASP.NET Core, C#, Node.js |
-| **Frontend** | React, Angular, TypeScript, Tailwind CSS |
-| **Cloud & DevOps** | Microsoft Azure, Microservices, CI/CD, SQL/PostgreSQL |
-| **Specialized** | AI/ML Integration, Legacy Modernization (ASP to .NET) |
+| **Backend** | .NET 1-10, ASP.NET Web Forms, ASP.NET MVC, ASP.NET Core, C#, VB.NET,Python,Node.js |
+| **Frontend** | React, Angular, Vue, TypeScript, Tailwind CSS |
+| **Cloud & DevOps** | Microsoft Azure, AWS, GCP, Microservices, CI/CD, SQL/PostgreSQL |
+| **Specialized** | AI/ML Integration, B2B SaaS, Legacy Modernization (ASP to .NET), Enterprise Architecture |
 
 ---
 
