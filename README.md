@@ -19,7 +19,7 @@ Facile Technolab designs, builds, and modernizes mission-critical software for m
 | **Frontend**        | Blazor, React, Angular, Vue, TypeScript, Tailwind CSS                                      |
 | **Cloud & DevOps**  | Microsoft Azure, AWS, GCP, Microservices, CI/CD, SQL Server / PostgreSQL                   |
 | **Frameworks**      | Abp.io, ASP.NET Zero                                                                       |
-| **Specialized**     | AI/ML Integration, Multi-Tenant B2B SaaS, Legacy Modernization (Classic ASP/PHP to .NET), Enterprise Architecture |
+| **Specialized**     | AI/ML Integration, [Multi-Tenant B2B SaaS Development](https://www.faciletechnolab.com/services/saas-development/), [Legacy Modernization (Classic ASP/PHP to .NET)](https://www.faciletechnolab.com/services/software-modernization/), Enterprise Architecture |
 
 ---
 
@@ -38,7 +38,7 @@ Facile Technolab designs, builds, and modernizes mission-critical software for m
 
 Roles we place most often when extending a client's engineering team:
 
-`ASP.NET Core` · `ASP.NET MVC` · `Blazor (Server & WebAssembly)` · `C#` · `VB.NET (maintenance & C# migration)` · `Blazor + ASP.NET Core Full-Stack` · `React + ASP.NET Core` · `Angular + ASP.NET Core`
+[`ASP.NET Core`](https://www.faciletechnolab.com/technologies/hire/aspnet-core-developers/) · `ASP.NET MVC` · `Blazor (Server & WebAssembly)` · `C#` · `VB.NET (maintenance & C# migration)` · `Blazor + ASP.NET Core Full-Stack` · `React + ASP.NET Core` · `Angular + ASP.NET Core`
 
 ---
 
