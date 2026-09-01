@@ -39,4 +39,5 @@ We build technology that solves complex problems in:
 - **Strategy:** Looking for a technical roadmap? We offer complimentary architectural reviews.
 
 ---
-*"We don't just write code; we engineer the future of your business."*
+### Blogs
+- [Enterprise Application Development: A Practical Guide to Architecture, Security, Modernization & Scale](https://github.com/FacileTechnolab/FacileTechnolab/blob/master/Enterprise%20Application%20Development%20-%20A%20Practical%20Guide.md)
