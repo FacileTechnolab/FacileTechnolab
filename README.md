@@ -41,3 +41,4 @@ We build technology that solves complex problems in:
 ---
 ### Blogs
 - [Enterprise Application Development: A Practical Guide to Architecture, Security, Modernization & Scale](https://github.com/FacileTechnolab/FacileTechnolab/blob/master/Enterprise%20Application%20Development%20-%20A%20Practical%20Guide.md)
+- [Enterprise Software Modernization: A Practical Guide to Migrating Legacy Systems Without Breaking the Business](https://github.com/FacileTechnolab/FacileTechnolab/blob/master/Enterprise%20Software%20Modernization%20-%20A%20Practical%20Guide.md)
