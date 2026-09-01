@@ -2,11 +2,11 @@
 
 *What technology leaders should consider before, during, and after modernizing a legacy enterprise application.*
 
-Almost every enterprise application eventually becomes a legacy application. A system built ten or fifteen years ago on Classic ASP, ASP.NET Web Forms, WCF, ColdFusion, or an old version of the .NET Framework may still run the business every day — payroll, order processing, claims, scheduling, billing — while quietly becoming harder to secure, harder to staff, and harder to change.
+Almost every enterprise application eventually becomes a legacy application. A system built ten or fifteen years ago on Classic ASP, ASP.NET Web Forms, WCF, ColdFusion, or an old version of the .NET Framework may still run the business every day payroll, order processing, claims, scheduling, billing while quietly becoming harder to secure, harder to staff, and harder to change.
 
 The question technology leaders eventually face isn't whether to modernize. It's how to do it without disrupting the operations the system already supports.
 
-At Facile Technolab, [software modernization](https://www.faciletechnolab.com/services/software-modernization/) is one of the areas we work in most often, across Classic ASP, ColdFusion, PHP, ASP.NET Web Forms, ASP.NET MVC, WCF, and legacy .NET Framework applications. This guide brings together what we've learned across those engagements.
+At Facile Technolab, [software modernization](https://www.faciletechnolab.com/services/software-modernization/) is one of the areas we work in most often, across Classic ASP, ColdFusion, PHP, ASP.NET Web Forms, ASP.NET MVC, WCF, and legacy .NET Framework applications. This guide brings together what we have learned across those engagements.
 
 ### Why Legacy Systems Become a Business Problem, Not Just a Technical One
 
@@ -21,13 +21,13 @@ A legacy system rarely fails all at once. It degrades gradually, and the pressur
 
 None of these problems are purely technical. Each one eventually shows up as cost, risk, or a constraint on what the business can do next. That's what makes modernization a leadership decision, not just an engineering one.
 
-### The Real Question Isn't "Rewrite or Keep" — It's How Much Risk You Can Afford
+### The Real Question Isn't "Rewrite or Keep" It's How Much Risk You Can Afford
 
 Framed as a binary, modernization decisions tend to stall. Framed as a risk question, they become tractable:
 
 > "How much operational risk can this business absorb while this system changes?"
 
-A system that's stable, low-traffic, and rarely touched can often tolerate a slower, more incremental modernization path. A system at the center of daily operations — the kind where downtime shows up on a customer-facing dashboard — usually can't.
+A system that's stable, low-traffic, and rarely touched can often tolerate a slower, more incremental modernization path. A system at the center of daily operations the kind where downtime shows up on a customer-facing dashboard usually can't.
 
 That's why modernization strategy has to start with the business context around the application, not with a preferred target framework.
 
@@ -41,7 +41,7 @@ Before choosing ASP.NET Core, a specific Azure service, or a migration tool, it'
 - What compliance or regulatory requirements apply to the data it handles?
 - What would actually break if this component went down for an hour?
 
-For .NET-based systems specifically, Microsoft's .NET Upgrade Assistant can help automate parts of this discovery — analyzing the codebase, flagging incompatible APIs, and handling some of the mechanical upgrade work. But tooling accelerates an assessment; it doesn't replace one.
+For .NET-based systems specifically, Microsoft's .NET Upgrade Assistant can help automate parts of this discovery analyzing the codebase, flagging incompatible APIs, and handling some of the mechanical upgrade work. But tooling accelerates an assessment; it doesn't replace one.
 
 Read more: [How to Use .NET Upgrade Assistant for Legacy .NET Migration](https://www.faciletechnolab.com/blog/how-to-use-dotnet-upgrade-assistant-for-migrating-legacy-dotnet-projects/)
 
@@ -60,7 +60,7 @@ Incremental modernization spreads that risk out. Instead of replacing everything
 5. Modernize and test that component alongside the existing system
 6. Gradually move functionality to the new architecture, one slice at a time
 
-This pattern — often called the strangler fig approach — lets the business keep using the legacy system while modernization happens underneath it, rather than pausing operations for a big-bang cutover.
+This pattern often called the strangler fig approach lets the business keep using the legacy system while modernization happens underneath it, rather than pausing operations for a big-bang cutover.
 
 Read more: [Migrating Legacy Enterprise Web Applications to ASP.NET Core](https://www.faciletechnolab.com/blog/migrating-legacy-enterprise-web-applications-to-aspnet-core/)
 
@@ -72,7 +72,7 @@ There isn't one migration strategy that fits every legacy technology. The starti
 
 **Classic ASP**
 
-Classic ASP applications are typically built on VBScript, COM components, and tightly coupled database logic with little separation between presentation and business rules. Because the language and runtime model are fundamentally different from ASP.NET Core, this is a rewrite rather than an upgrade — the value is in a proven, phased framework rather than a shortcut.
+Classic ASP applications are typically built on VBScript, COM components, and tightly coupled database logic with little separation between presentation and business rules. Because the language and runtime model are fundamentally different from ASP.NET Core, this is a rewrite rather than an upgrade the value is in a proven, phased framework rather than a shortcut.
 
 Read more: [Classic ASP to ASP.NET Core Migration Guide](https://www.faciletechnolab.com/blog/migrating-enterprise-classic-asp-applications-to-aspnet-core/)
 
@@ -96,7 +96,7 @@ Read more: [Upgrading Enterprise ASP.NET Web Forms Applications to ASP.NET Core]
 
 **ASP.NET MVC**
 
-MVC applications are usually the closest starting point to ASP.NET Core, but that similarity can be deceptive. The real complexity tends to live in dependencies — packages built around `System.Web`, OWIN authentication, or ASP.NET Membership that don't have a direct equivalent and need to be replaced or redesigned rather than simply upgraded.
+MVC applications are usually the closest starting point to ASP.NET Core, but that similarity can be deceptive. The real complexity tends to live in dependencies packages built around `System.Web`, OWIN authentication, or ASP.NET Membership that don't have a direct equivalent and need to be replaced or redesigned rather than simply upgraded.
 
 Read more: [ASP.NET MVC to ASP.NET Core Migration: NuGet Packages Modernization Guide](https://www.faciletechnolab.com/blog/aspnet-mvc-to-aspnet-core-migration-nuget-packages/)
 
@@ -122,7 +122,7 @@ For systems that can't afford an outage, the migration strategy has to be design
 - Defining a clear rollback path before the migration begins, not after something goes wrong
 - Testing under realistic production load, not just functional correctness
 
-Cloud platforms like Azure make some of this easier — a lift-and-shift step can move a workload onto modern infrastructure first, with deeper architectural changes following once the system is stable in its new environment, rather than trying to change everything simultaneously.
+Cloud platforms like Azure make some of this easier a lift-and-shift step can move a workload onto modern infrastructure first, with deeper architectural changes following once the system is stable in its new environment, rather than trying to change everything simultaneously.
 
 Read more: [Modernizing Legacy .NET Applications Without Disrupting Operations](https://www.faciletechnolab.com/blog/modernizing-legacy-net-applications-without-disrupting-operations/)
 
@@ -137,7 +137,7 @@ During an assessment, dependencies generally fall into a few buckets:
 - Packages that need to be removed because the functionality is now built into the framework
 - Custom or legacy components that reveal a deeper architectural decision hiding inside a dependency
 
-Treating dependency migration as its own planning exercise — rather than an afterthought to the framework upgrade — tends to prevent a lot of mid-project surprises.
+Treating dependency migration as its own planning exercise rather than an afterthought to the framework upgrade tends to prevent a lot of mid-project surprises.
 
 Read more: [ASP.NET MVC to ASP.NET Core Migration: NuGet Packages Modernization Guide](https://www.faciletechnolab.com/blog/aspnet-mvc-to-aspnet-core-migration-nuget-packages/)
 
@@ -145,15 +145,15 @@ Read more: [ASP.NET MVC to ASP.NET Core Migration: NuGet Packages Modernization 
 
 Across these different stacks and starting points, a workable modernization process tends to follow the same shape:
 
-1. **Assess the existing system** — dependencies, business logic, data, and operational risk
-2. **Define the target architecture** — modular monolith, services, or something in between
-3. **Prioritize by risk and value** — modernize the components that matter most first
-4. **Choose an incremental migration pattern** — strangler fig, parallel run, or phased cutover
-5. **Migrate dependencies deliberately** — don't leave them as a footnote to the framework upgrade
-6. **Test alongside the existing system** — under real workflows and real load, not just unit tests
-7. **Plan the cutover and the rollback** — both need a plan before migration day, not during it
-8. **Modernize incrementally** — move functionality over in stages rather than all at once
-9. **Plan for what comes after** — modernization is rarely a one-time event
+1. **Assess the existing system** dependencies, business logic, data, and operational risk
+2. **Define the target architecture** modular monolith, services, or something in between
+3. **Prioritize by risk and value** modernize the components that matter most first
+4. **Choose an incremental migration pattern** strangler fig, parallel run, or phased cutover
+5. **Migrate dependencies deliberately** don't leave them as a footnote to the framework upgrade
+6. **Test alongside the existing system** under real workflows and real load, not just unit tests
+7. **Plan the cutover and the rollback** both need a plan before migration day, not during it
+8. **Modernize incrementally** move functionality over in stages rather than all at once
+9. **Plan for what comes after** modernization is rarely a one-time event
 
 ### Modernization Is Rarely All-or-Nothing
 
@@ -163,7 +163,7 @@ What stays constant across all of them is the underlying goal: keep the business
 
 ### Software Modernization at Facile Technolab
 
-At Facile Technolab, we work with businesses modernizing legacy systems built on Classic ASP, ColdFusion, PHP, ASP.NET Web Forms, ASP.NET MVC, WCF, and older versions of the .NET Framework — migrating them toward modern ASP.NET Core and Azure-based architectures.
+At Facile Technolab, we work with businesses modernizing legacy systems built on Classic ASP, ColdFusion, PHP, ASP.NET Web Forms, ASP.NET MVC, WCF, and older versions of the .NET Framework migrating them toward modern ASP.NET Core and Azure-based architectures.
 
 Depending on the project, that work may involve a full assessment and migration roadmap, an incremental strangler-fig migration alongside an existing system, or a focused dependency and package modernization pass. The approach is milestone-based, so the architecture and the migration plan can be validated progressively rather than committing the business to one large cutover.
 
@@ -175,4 +175,4 @@ Legacy systems rarely become liabilities overnight, and they rarely need to be r
 
 The framework matters. The migration pattern matters. The tooling matters.
 
-But what actually determines whether a modernization project succeeds is whether the business kept running while it happened — and whether the team understood the system well enough to know what could safely change, and what couldn't.
+But what actually determines whether a modernization project succeeds is whether the business kept running while it happened and whether the team understood the system well enough to know what could safely change, and what couldn't.
